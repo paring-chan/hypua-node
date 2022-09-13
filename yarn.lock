@@ -1116,9 +1116,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hypua-node@workspace:.":
+"hypua@workspace:.":
   version: 0.0.0-use.local
-  resolution: "hypua-node@workspace:."
+  resolution: "hypua@workspace:."
   dependencies:
     "@swc-node/register": ^1.5.1
     "@types/ffi-napi": ^4.0.5

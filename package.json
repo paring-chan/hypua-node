@@ -1,5 +1,5 @@
 {
-  "name": "hypua-node",
+  "name": "hypua",
   "packageManager": "yarn@3.2.3",
   "devDependencies": {
     "@swc-node/register": "^1.5.1",

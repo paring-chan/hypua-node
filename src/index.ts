@@ -15,4 +15,4 @@ const hypua = ffi.Library(
   }
 )
 
-export const toIpfString = hypua.to_ipf_string
+export const toIpfString = (str: string) => hypua.to_ipf_string(str)

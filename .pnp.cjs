@@ -17,14 +17,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
     ],\
     "dependencyTreeRoots": [\
       {\
-        "name": "hypua-node",\
+        "name": "hypua",\
         "reference": "workspace:."\
       }\
     ],\
     "enableTopLevelFallback": true,\
     "ignorePatternData": "(^(?:\\\\.yarn\\\\/sdks(?:\\\\/(?!\\\\.{1,2}(?:\\\\/|$))(?:(?:(?!(?:^|\\\\/)\\\\.{1,2}(?:\\\\/|$)).)*?)|$))$)",\
     "fallbackExclusionList": [\
-      ["hypua-node", ["workspace:."]]\
+      ["hypua", ["workspace:."]]\
     ],\
     "fallbackPool": [\
     ],\
@@ -33,13 +33,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["@swc-node/register", "virtual:82266dafeddee9def9f30ce8cb19aa538838d1b414297477d0267dedf5ce242529c031215478f0228eb1da5abb0dfc105b2de4f535a4ebf182d99253a59cb400#npm:1.5.1"],\
+            ["@swc-node/register", "virtual:07033613a166d6ecc01d4adffcbc401856fed65d61cf26526fd4e2a9fd594609b7606e1d0925f05d8d3a46eb9c502b18c21a7cda20a98fa6e975b43d8e8649fc#npm:1.5.1"],\
             ["@types/ffi-napi", "npm:4.0.5"],\
             ["@types/node", "npm:18.7.17"],\
             ["ffi-napi", "npm:4.0.3"],\
             ["prettier", "npm:2.7.1"],\
             ["tslib", "npm:2.4.0"],\
-            ["tsup", "virtual:82266dafeddee9def9f30ce8cb19aa538838d1b414297477d0267dedf5ce242529c031215478f0228eb1da5abb0dfc105b2de4f535a4ebf182d99253a59cb400#npm:6.2.3"],\
+            ["tsup", "virtual:07033613a166d6ecc01d4adffcbc401856fed65d61cf26526fd4e2a9fd594609b7606e1d0925f05d8d3a46eb9c502b18c21a7cda20a98fa6e975b43d8e8649fc#npm:6.2.3"],\
             ["typescript", "patch:typescript@npm%3A4.8.3#~builtin<compat/typescript>::version=4.8.3&hash=a1c5e5"]\
           ],\
           "linkType": "SOFT"\
@@ -134,10 +134,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:82266dafeddee9def9f30ce8cb19aa538838d1b414297477d0267dedf5ce242529c031215478f0228eb1da5abb0dfc105b2de4f535a4ebf182d99253a59cb400#npm:1.5.1", {\
-          "packageLocation": "./.yarn/__virtual__/@swc-node-register-virtual-1aa1c8546e/0/cache/@swc-node-register-npm-1.5.1-396f07ca45-d4e4442e85.zip/node_modules/@swc-node/register/",\
+        ["virtual:07033613a166d6ecc01d4adffcbc401856fed65d61cf26526fd4e2a9fd594609b7606e1d0925f05d8d3a46eb9c502b18c21a7cda20a98fa6e975b43d8e8649fc#npm:1.5.1", {\
+          "packageLocation": "./.yarn/__virtual__/@swc-node-register-virtual-dcee35b94d/0/cache/@swc-node-register-npm-1.5.1-396f07ca45-d4e4442e85.zip/node_modules/@swc-node/register/",\
           "packageDependencies": [\
-            ["@swc-node/register", "virtual:82266dafeddee9def9f30ce8cb19aa538838d1b414297477d0267dedf5ce242529c031215478f0228eb1da5abb0dfc105b2de4f535a4ebf182d99253a59cb400#npm:1.5.1"],\
+            ["@swc-node/register", "virtual:07033613a166d6ecc01d4adffcbc401856fed65d61cf26526fd4e2a9fd594609b7606e1d0925f05d8d3a46eb9c502b18c21a7cda20a98fa6e975b43d8e8649fc#npm:1.5.1"],\
             ["@swc-node/core", "npm:1.9.0"],\
             ["@swc-node/sourcemap-support", "npm:0.2.0"],\
             ["@types/typescript", null],\
@@ -539,10 +539,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:b98f3088ed5aa2c2b6a1af6ee6e9c5ca8efa04e913e0a36438fc6f74a2a449ebb03b8fc7bd0fe36445928f203853435e6cdb8fb9caf84f931c9e97f2fd864f6f#npm:3.1.0", {\
-          "packageLocation": "./.yarn/__virtual__/bundle-require-virtual-243f522829/0/cache/bundle-require-npm-3.1.0-29ae28685a-e433dd18ad.zip/node_modules/bundle-require/",\
+        ["virtual:b72ca1ac800b899ea89ebbc99ee1076710d789492fa26f7c9411978d1fe82e5c613feebb4b4e8825d85ffa327bedb6e76ca45bee0f8cf77b41d9d4d38d282916#npm:3.1.0", {\
+          "packageLocation": "./.yarn/__virtual__/bundle-require-virtual-c2170de4c2/0/cache/bundle-require-npm-3.1.0-29ae28685a-e433dd18ad.zip/node_modules/bundle-require/",\
           "packageDependencies": [\
-            ["bundle-require", "virtual:b98f3088ed5aa2c2b6a1af6ee6e9c5ca8efa04e913e0a36438fc6f74a2a449ebb03b8fc7bd0fe36445928f203853435e6cdb8fb9caf84f931c9e97f2fd864f6f#npm:3.1.0"],\
+            ["bundle-require", "virtual:b72ca1ac800b899ea89ebbc99ee1076710d789492fa26f7c9411978d1fe82e5c613feebb4b4e8825d85ffa327bedb6e76ca45bee0f8cf77b41d9d4d38d282916#npm:3.1.0"],\
             ["@types/esbuild", null],\
             ["esbuild", "npm:0.15.7"],\
             ["load-tsconfig", "npm:0.2.3"]\
@@ -1277,18 +1277,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["hypua-node", [\
+      ["hypua", [\
         ["workspace:.", {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["hypua-node", "workspace:."],\
-            ["@swc-node/register", "virtual:82266dafeddee9def9f30ce8cb19aa538838d1b414297477d0267dedf5ce242529c031215478f0228eb1da5abb0dfc105b2de4f535a4ebf182d99253a59cb400#npm:1.5.1"],\
+            ["hypua", "workspace:."],\
+            ["@swc-node/register", "virtual:07033613a166d6ecc01d4adffcbc401856fed65d61cf26526fd4e2a9fd594609b7606e1d0925f05d8d3a46eb9c502b18c21a7cda20a98fa6e975b43d8e8649fc#npm:1.5.1"],\
             ["@types/ffi-napi", "npm:4.0.5"],\
             ["@types/node", "npm:18.7.17"],\
             ["ffi-napi", "npm:4.0.3"],\
             ["prettier", "npm:2.7.1"],\
             ["tslib", "npm:2.4.0"],\
-            ["tsup", "virtual:82266dafeddee9def9f30ce8cb19aa538838d1b414297477d0267dedf5ce242529c031215478f0228eb1da5abb0dfc105b2de4f535a4ebf182d99253a59cb400#npm:6.2.3"],\
+            ["tsup", "virtual:07033613a166d6ecc01d4adffcbc401856fed65d61cf26526fd4e2a9fd594609b7606e1d0925f05d8d3a46eb9c502b18c21a7cda20a98fa6e975b43d8e8649fc#npm:6.2.3"],\
             ["typescript", "patch:typescript@npm%3A4.8.3#~builtin<compat/typescript>::version=4.8.3&hash=a1c5e5"]\
           ],\
           "linkType": "SOFT"\
@@ -1878,10 +1878,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:b98f3088ed5aa2c2b6a1af6ee6e9c5ca8efa04e913e0a36438fc6f74a2a449ebb03b8fc7bd0fe36445928f203853435e6cdb8fb9caf84f931c9e97f2fd864f6f#npm:3.1.4", {\
-          "packageLocation": "./.yarn/__virtual__/postcss-load-config-virtual-21b8442868/0/cache/postcss-load-config-npm-3.1.4-1cb8a7e276-1c589504c2.zip/node_modules/postcss-load-config/",\
+        ["virtual:b72ca1ac800b899ea89ebbc99ee1076710d789492fa26f7c9411978d1fe82e5c613feebb4b4e8825d85ffa327bedb6e76ca45bee0f8cf77b41d9d4d38d282916#npm:3.1.4", {\
+          "packageLocation": "./.yarn/__virtual__/postcss-load-config-virtual-77af3622d0/0/cache/postcss-load-config-npm-3.1.4-1cb8a7e276-1c589504c2.zip/node_modules/postcss-load-config/",\
           "packageDependencies": [\
-            ["postcss-load-config", "virtual:b98f3088ed5aa2c2b6a1af6ee6e9c5ca8efa04e913e0a36438fc6f74a2a449ebb03b8fc7bd0fe36445928f203853435e6cdb8fb9caf84f931c9e97f2fd864f6f#npm:3.1.4"],\
+            ["postcss-load-config", "virtual:b72ca1ac800b899ea89ebbc99ee1076710d789492fa26f7c9411978d1fe82e5c613feebb4b4e8825d85ffa327bedb6e76ca45bee0f8cf77b41d9d4d38d282916#npm:3.1.4"],\
             ["@types/postcss", null],\
             ["@types/ts-node", null],\
             ["lilconfig", "npm:2.0.6"],\
@@ -2352,15 +2352,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:82266dafeddee9def9f30ce8cb19aa538838d1b414297477d0267dedf5ce242529c031215478f0228eb1da5abb0dfc105b2de4f535a4ebf182d99253a59cb400#npm:6.2.3", {\
-          "packageLocation": "./.yarn/__virtual__/tsup-virtual-b98f3088ed/0/cache/tsup-npm-6.2.3-84cc53527d-f1cb8f4f83.zip/node_modules/tsup/",\
+        ["virtual:07033613a166d6ecc01d4adffcbc401856fed65d61cf26526fd4e2a9fd594609b7606e1d0925f05d8d3a46eb9c502b18c21a7cda20a98fa6e975b43d8e8649fc#npm:6.2.3", {\
+          "packageLocation": "./.yarn/__virtual__/tsup-virtual-b72ca1ac80/0/cache/tsup-npm-6.2.3-84cc53527d-f1cb8f4f83.zip/node_modules/tsup/",\
           "packageDependencies": [\
-            ["tsup", "virtual:82266dafeddee9def9f30ce8cb19aa538838d1b414297477d0267dedf5ce242529c031215478f0228eb1da5abb0dfc105b2de4f535a4ebf182d99253a59cb400#npm:6.2.3"],\
+            ["tsup", "virtual:07033613a166d6ecc01d4adffcbc401856fed65d61cf26526fd4e2a9fd594609b7606e1d0925f05d8d3a46eb9c502b18c21a7cda20a98fa6e975b43d8e8649fc#npm:6.2.3"],\
             ["@swc/core", null],\
             ["@types/postcss", null],\
             ["@types/swc__core", null],\
             ["@types/typescript", null],\
-            ["bundle-require", "virtual:b98f3088ed5aa2c2b6a1af6ee6e9c5ca8efa04e913e0a36438fc6f74a2a449ebb03b8fc7bd0fe36445928f203853435e6cdb8fb9caf84f931c9e97f2fd864f6f#npm:3.1.0"],\
+            ["bundle-require", "virtual:b72ca1ac800b899ea89ebbc99ee1076710d789492fa26f7c9411978d1fe82e5c613feebb4b4e8825d85ffa327bedb6e76ca45bee0f8cf77b41d9d4d38d282916#npm:3.1.0"],\
             ["cac", "npm:6.7.14"],\
             ["chokidar", "npm:3.5.3"],\
             ["debug", "virtual:b86a9fb34323a98c6519528ed55faa0d9b44ca8879307c0b29aa384bde47ff59a7d0c9051b31246f14521dfb71ba3c5d6d0b35c29fffc17bf875aa6ad977d9e8#npm:4.3.4"],\
@@ -2369,7 +2369,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["globby", "npm:11.1.0"],\
             ["joycon", "npm:3.1.1"],\
             ["postcss", null],\
-            ["postcss-load-config", "virtual:b98f3088ed5aa2c2b6a1af6ee6e9c5ca8efa04e913e0a36438fc6f74a2a449ebb03b8fc7bd0fe36445928f203853435e6cdb8fb9caf84f931c9e97f2fd864f6f#npm:3.1.4"],\
+            ["postcss-load-config", "virtual:b72ca1ac800b899ea89ebbc99ee1076710d789492fa26f7c9411978d1fe82e5c613feebb4b4e8825d85ffa327bedb6e76ca45bee0f8cf77b41d9d4d38d282916#npm:3.1.4"],\
             ["resolve-from", "npm:5.0.0"],\
             ["rollup", "npm:2.79.0"],\
             ["source-map", "npm:0.8.0-beta.0"],\
