@@ -1,0 +1,9 @@
+native
+.pnp.*
+build.sh
+.yarnrc.yml
+tsup.config.ts
+yarn.lock
+.yarn
+.vscode
+node_modules
