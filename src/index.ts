@@ -1,18 +1,13 @@
-import ffi from 'ffi-napi'
 import path from 'path'
+import native from './pkg/hypua_node_native'
 
-const hypua = ffi.Library(
-  path.resolve(
-    __dirname,
-    '..',
-    'native',
-    'target',
-    'release',
-    'libhypua_node_native'
-  ),
-  {
-    to_ipf_string: ['string', ['string']],
-  }
+const wasmPath = path.resolve(
+  __dirname,
+  '..',
+  'native_libs',
+  'hypua_node_native.wasm'
 )
 
-export const toIpfString = (str: string) => hypua.to_ipf_string(str)
+export const toIpfString = (str: string) => {
+  return native.to_ipf_string(str)
+}
