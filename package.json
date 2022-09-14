@@ -14,6 +14,7 @@
     "typescript": "^4.8.3"
   },
   "scripts": {
-    "build": "bash ./build.sh"
+    "build": "bash ./build.sh",
+    "prepack": "yarn build"
   }
 }
