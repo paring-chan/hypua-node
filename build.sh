@@ -13,4 +13,4 @@ rm src/pkg/package.json
 
 yarn tsup-node
 
-cp hypua_node_native_bg.wasm dist
+cp src/pkg/hypua_node_native_bg.wasm dist
